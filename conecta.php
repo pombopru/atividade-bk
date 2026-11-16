@@ -14,7 +14,7 @@ try {
 
     echo "Conexão com o banco de dados realizada com sucesso!";
 } catch (PDOException $e) {
-    // Exibindo a mensagem de erro em caso de falha na conexão
+    // Exibindo a mensagem de erro em caso de falha na conexao
     echo "Erro ao conectar ao banco de dados: " . $e->getMessage();
 }
 ?>
